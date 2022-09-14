@@ -8,8 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FelipeRosa/go-libp2p-chat/go-node/entities"
-	"github.com/FelipeRosa/go-libp2p-chat/go-node/events"
+	entities "zl-gochat/entities"
+	events "zl-gochat/events"
+
 	"github.com/libp2p/go-libp2p-core/peer"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"

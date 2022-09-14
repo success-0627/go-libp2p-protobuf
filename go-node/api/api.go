@@ -3,8 +3,10 @@ package api
 import (
 	context "context"
 
-	apigen "github.com/FelipeRosa/go-libp2p-chat/go-node/gen/api"
-	"github.com/FelipeRosa/go-libp2p-chat/go-node/node"
+	apigen "zl-gochat/gen/api"
+
+	"zl-gochat/node"
+
 	"github.com/libp2p/go-libp2p-core/peer"
 	"go.uber.org/zap"
 )

@@ -1,4 +1,4 @@
-module github.com/FelipeRosa/go-libp2p-chat/go-node
+module zl-gochat
 
 go 1.15
 

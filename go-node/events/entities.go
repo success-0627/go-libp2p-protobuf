@@ -1,8 +1,10 @@
 package events
 
 import (
-	"github.com/FelipeRosa/go-libp2p-chat/go-node/entities"
-	apigen "github.com/FelipeRosa/go-libp2p-chat/go-node/gen/api"
+	apigen "zl-gochat/gen/api"
+
+	entities "zl-gochat/entities"
+
 	"github.com/libp2p/go-libp2p-core/peer"
 )
 
